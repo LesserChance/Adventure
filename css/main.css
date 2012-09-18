@@ -1,0 +1,56 @@
+body {
+    background-color:#ffff92;    
+    background-image:url("../img/background.jpg");
+    background-position:top center;
+    background-repeat: no-repeat
+}
+
+#canvas {
+    margin:30px auto;
+    border-width: 10px;
+    -moz-border-image:url("../img/canvas-border.png") 10 10 stretch; /* Firefox */
+    -webkit-border-image:url("../img/canvas-border.png") 10 10 stretch; /* Safari */
+    -o-border-image:url("../img/canvas-border.png") 10 10 stretch; /* Opera */
+    border-image:url("../img/canvas-border.png") 10 10 stretch;
+}
+#game {
+    width:100%;
+    height:100%;
+    background-color:#FFF;
+    position:relative;
+}
+#base {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+#fringe {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+#entities {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+#kineticEntities {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+#foreground {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+}

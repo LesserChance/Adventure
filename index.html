@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Adventure</title>
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+    </head>
+    <body>
+        <div id="canvas">
+            <div id="game">
+                <canvas id="base"></canvas>
+                <canvas id="fringe"></canvas>
+                <canvas id="entities"></canvas>
+                <div id="kineticEntities"></div>
+                <canvas id="foreground" ></canvas>
+            </div>
+        </div>
+        <div id="util">
+            <button onclick="Util.generateRandomMap(300,400,'1');" >Generate Map (300x400: Level 1)</button>
+        </div>
+        <script data-main="js/initMain" src="js/lib/require-jquery.js" type="text/javascript"></script>
+    </body>
+</html>

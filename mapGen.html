@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Adventure - Map Generation</title>
+        <link rel="stylesheet" href="css/mapGen.css" type="text/css">
+    </head>
+    <body>
+        <div id="canvas">
+            <div id="game">
+                <div id="mapCanvas"></div>
+            </div>
+        </div>
+        <button onclick="mapGen.moveMap(1,0);">Move Right</button>
+        <button onclick="mapGen.moveMap(-1,0);">Move Left</button>
+        <button onclick="mapGen.moveMap(0,-1);">Move Up</button>
+        <button onclick="mapGen.moveMap(0,1);">Move Down</button>
+        <script data-main="js/initMapGen" src="js/lib/require-jquery.js" type="text/javascript"></script>
+    </body>
+</html>
